@@ -1,6 +1,18 @@
+// function pikachu(name) {
 
-function NavBar({ pokemonList, onPokemonButtonClick }) {
+//     if (name === "pikachu") {
+//         alert("pika pikachu !!!")
+//     }
+// }
 
+
+function NavBar({ pokemonList, onPokemonButtonClick, pokemonName }) {
+
+    if (pokemonName === "pikachu") {
+        alert("pika pikachu !!!")
+    }
+    console.log(pokemonName);
+    // pikachu(pokemonName)
     return (
         <div>
             <ul>
